@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[(name() = 'li') and (position() = 10)]//a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::a[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

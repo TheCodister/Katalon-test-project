@@ -6,12 +6,12 @@
    <elementGuidId>c38fd07e-cc0b-4064-bf33-efa42adc11f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_18_1_1_1750146834312_24</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Khóa học'])[2]/following::h1[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
+         <value>#yui_3_18_1_1_1750146834312_24</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

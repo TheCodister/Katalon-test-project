@@ -6,16 +6,16 @@
    <elementGuidId>68b25496-3b60-44ab-bb99-b0d87a055bd5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;submit&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//input[@name='${GlobalVariable.name}']</value>
+         <value>//form[@id='fm1']/div[4]/input[4]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@name = 'submit' and @type = 'submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;submit&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
