@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body[@id='page-login-index']/div[5]/div[2]/div/div/div[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cookies must be enabled in your browser'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -21,7 +21,7 @@ Mobile.startApplication('e98c8642-4dd1-4603-af3f-58cf870c7e48', true)
 
 Mobile.tap(findTestObject('Object Repository/Android-test-app/android.widget.Button'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android-test-app/android.widget.Button (1)'), 0)
+Mobile.tap(findTestObject('Android-test-app/android.widget.Button'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Android-test-app/android.widget.Button (2)'), 0)
 

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='yui_3_18_1_1_1750312917553_24']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cookies must be enabled in your browser'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
