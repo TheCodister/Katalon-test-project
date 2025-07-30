@@ -23,3 +23,5 @@ WebUI.navigateToUrl(GlobalVariable.baseURL)
 
 WebUI.maximizeWindow()
 
+WebUI.maximizeWindow()
+
