@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('qa-aces-web.pbchbs.com/')
+WebUI.navigateToUrl(GlobalVariable.baseURL)
 
 WebUI.maximizeWindow()
 
