@@ -15,7 +15,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration
 import org.openqa.selenium.Keys as Keys
+
+Map<String, Object> chromeOptions = [
+	"args": [
+		"--window-size=1920,1080",
+		"--disable-gpu",
+		"--no-sandbox",
+		"--disable-dev-shm-usage",
+		"--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+	]
+]
+
+RunConfiguration.setWebDriverPreferencesProperty("goog:chromeOptions", chromeOptions)
+
+
 
 WebUI.openBrowser('')
 

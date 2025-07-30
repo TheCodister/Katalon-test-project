@@ -17,39 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://canvas-demo-website.vercel.app/')
+Mobile.startApplication('/Users/quang.nnguyen/Downloads/reactnativesample.app', true)
 
-// Define a list of coordinate pairs you want to test
-List<List<Integer>> coordinates = [
-    [90, 30],
-    [60, 120],
-    [400, 20],
-    [200, 80],
-    [-200, 100]
-]
+Mobile.swipe(400, 550, 400, 490)
 
-// Store chart values here
-List<String> chartValues = []
+Mobile.setText(findTestObject('Object Repository/XCUIElementTypeTextField - text-input'), 'I have an erection', 0)
 
-TestObject canvas = findTestObject('Object Repository/Page_/canvas_ValueMonthSample Monthly Data Chart010203') //Test object
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeButton - popup-button'), 0)
 
-for (List<Integer> coord : coordinates) {
-    int x = coord[0]
-    int y = coord[1]
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeButton - Close'), 0)
 
-    WebUI.mouseOverOffset(canvas, x, y)
-    WebUI.delay(2)  // Give tooltip time to appear
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeButton - Interaction, tab, 2 of 2'), 0)
 
-    String chartText = WebUI.getText(canvas)
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeOther - double-tap-box'), 0)
 
-    // Trim based on fixed offset (adjust if needed)
-    String trimmedText = chartText.length() > 122 ? chartText.substring(122) : chartText
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeOther - double-tap-box'), 0)
 
-    chartValues.add(trimmedText)
-}
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeSwitch - switch-toggle'), 0)
 
-// Print all collected values
-for (String value : chartValues) {
-    println(value)
-}
+Mobile.swipe(400, 900, 600, 900)
+
+Mobile.closeApplication()
+

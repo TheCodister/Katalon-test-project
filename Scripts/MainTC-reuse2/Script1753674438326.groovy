@@ -17,39 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://canvas-demo-website.vercel.app/')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-// Define a list of coordinate pairs you want to test
-List<List<Integer>> coordinates = [
-    [90, 30],
-    [60, 120],
-    [400, 20],
-    [200, 80],
-    [-200, 100]
-]
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-// Store chart values here
-List<String> chartValues = []
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC9/tgadAtv0858Ibc3six5')
 
-TestObject canvas = findTestObject('Object Repository/Page_/canvas_ValueMonthSample Monthly Data Chart010203') //Test object
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-for (List<Integer> coord : coordinates) {
-    int x = coord[0]
-    int y = coord[1]
-
-    WebUI.mouseOverOffset(canvas, x, y)
-    WebUI.delay(2)  // Give tooltip time to appear
-
-    String chartText = WebUI.getText(canvas)
-
-    // Trim based on fixed offset (adjust if needed)
-    String trimmedText = chartText.length() > 122 ? chartText.substring(122) : chartText
-
-    chartValues.add(trimmedText)
-}
-
-// Print all collected values
-for (String value : chartValues) {
-    println(value)
-}

@@ -13,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.EditText</value>
-      <webElementGuid>102d928c-0d4c-46f7-bc25-5bfbf6000f09</webElementGuid>
+      <webElementGuid>07eaeddc-1d39-4e41-b0e4-f09d7e2dcdcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>6e989701-0f6f-4dd5-9c28-dce786ab5c42</webElementGuid>
+      <webElementGuid>6522cfc1-0ef3-409d-8aec-a52b559c6b25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Write a task</value>
-      <webElementGuid>2cea29fc-d5e7-4836-953a-3966b934d7fa</webElementGuid>
+      <webElementGuid>57eee21b-0987-45ae-8138-71cb8771de0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.hanivo.todolist</value>
-      <webElementGuid>d5f49881-4e14-4c79-93ab-b3109ff07494</webElementGuid>
+      <webElementGuid>600d9d89-e6e1-4f52-b285-2323470b5e46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a19032fc-0c21-4662-a901-44e78cb73d9a</webElementGuid>
+      <webElementGuid>4deafa58-273e-4e04-bfe4-25f5a3ace702</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>580728de-f0a5-4aea-a405-25210513c8b0</webElementGuid>
+      <webElementGuid>22cd766d-c452-445f-8307-0ccb89464dfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>36454280-1519-46d2-8808-ab098e67a145</webElementGuid>
+      <webElementGuid>35dc602f-ad34-45d9-b260-11db26153c0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c56c27e8-faeb-4e11-b868-c2b7b6bb54cf</webElementGuid>
+      <webElementGuid>c7100e7e-1a82-4d77-a416-129f6f57fb60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8e7d29a3-c339-4dc8-aa50-e510e5a0bff3</webElementGuid>
+      <webElementGuid>d14829f8-4564-4445-9ad8-810d3b4a5af1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9dc4f155-b1be-4b60-a184-87253debd28b</webElementGuid>
+      <webElementGuid>1323c6ee-c089-42de-abc4-73d984f2fa62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>04da3632-6a4a-4e2a-9cf1-4f1db681d7d2</webElementGuid>
+      <webElementGuid>3967962d-ab52-445c-a2fe-eb8ca7b9b3cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>53a81c2d-b0d6-4529-9703-e5b2440d6faa</webElementGuid>
+      <webElementGuid>7b205596-6d6b-4bfb-8198-e4bd67f8f91f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>266c61d6-3591-466b-a9b6-3877c2127daf</webElementGuid>
+      <webElementGuid>ae6bad8b-f40d-4b75-b66c-23a744b0e8d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,47 +117,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6f1db735-cbee-4f07-8b33-0b6bdd4df28e</webElementGuid>
+      <webElementGuid>a8354829-9470-44a3-ab7e-9a3d6422aeae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>52</value>
-      <webElementGuid>c65c8f05-41a9-4494-ace9-dd43453be945</webElementGuid>
+      <value>67</value>
+      <webElementGuid>ada5172f-545b-4589-8361-08a54b418ba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1868</value>
-      <webElementGuid>e0c2806c-5269-4f53-bb7d-6083b7a003bc</webElementGuid>
+      <value>2022</value>
+      <webElementGuid>abaabc55-3f75-4f09-8018-125723954d8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>703</value>
-      <webElementGuid>e9484b9c-de08-4db0-b41f-1a11a727e714</webElementGuid>
+      <value>656</value>
+      <webElementGuid>76b606df-f4ec-4cec-9542-381116b2472d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>168</value>
-      <webElementGuid>9541281d-4f7a-4d71-adb6-b52f7e493af8</webElementGuid>
+      <value>157</value>
+      <webElementGuid>9a4b8a41-baa9-44b1-b9fc-0a575a2bb692</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[52,1868][755,2036]</value>
-      <webElementGuid>0ed0dcff-fa74-46c5-97b1-36609ef6f562</webElementGuid>
+      <value>[67,2022][723,2179]</value>
+      <webElementGuid>9645e43b-f8c7-48de-9f8f-8a5ad64daef2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9fdf182c-90b5-4b0f-8eae-c392944d4003</webElementGuid>
+      <webElementGuid>aba20d21-891c-4852-a8de-1d424c7fce89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -181,57 +181,49 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]</value>
-      <webElementGuid>34374d25-552d-4843-a554-c55e3a44efb2</webElementGuid>
+      <webElementGuid>2cd65ba8-fbea-4254-9b02-12a1c3bb6bca</webElementGuid>
    </webElementProperties>
    <locator>//*[@class = 'android.widget.EditText' and (@text = 'Write a task' or . = 'Write a task')]</locator>
    <locatorCollection>
-      <entry>
-         <key>ACCESSIBILITY</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value></value>
-      </entry>
       <entry>
          <key>CLASS_NAME</key>
          <value>android.widget.EditText</value>
       </entry>
       <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value></value>
+         <key>ACCESSIBILITY</key>
       </entry>
       <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;Write a task&quot;).packageName(&quot;com.hanivo.todolist&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
+         <key>ANDROID_VIEWTAG</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]</value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-         <value></value>
+         <key>IOS_CLASS_CHAIN</key>
       </entry>
       <entry>
          <key>NAME</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>ID</key>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
          <value>//*[@class = 'android.widget.EditText' and (@text = 'Write a task' or . = 'Write a task')]</value>
       </entry>
       <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]</value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;Write a task&quot;).packageName(&quot;com.hanivo.todolist&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(0)</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

@@ -17,39 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://canvas-demo-website.vercel.app/')
+Mobile.startApplication('/Users/quang.nnguyen/Downloads/app.apk', true)
 
-// Define a list of coordinate pairs you want to test
-List<List<Integer>> coordinates = [
-    [90, 30],
-    [60, 120],
-    [400, 20],
-    [200, 80],
-    [-200, 100]
-]
+Mobile.tap(findTestObject('Object Repository/android.view.View'), 0)
 
-// Store chart values here
-List<String> chartValues = []
+Mobile.tap(findTestObject('Object Repository/android.widget.Button'), 0)
 
-TestObject canvas = findTestObject('Object Repository/Page_/canvas_ValueMonthSample Monthly Data Chart010203') //Test object
+Mobile.tap(findTestObject('Object Repository/android.view.View (1)'), 0)
 
-for (List<Integer> coord : coordinates) {
-    int x = coord[0]
-    int y = coord[1]
+Mobile.pressHome()
 
-    WebUI.mouseOverOffset(canvas, x, y)
-    WebUI.delay(2)  // Give tooltip time to appear
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Play Store'), 0)
 
-    String chartText = WebUI.getText(canvas)
+Mobile.pressHome()
 
-    // Trim based on fixed offset (adjust if needed)
-    String trimmedText = chartText.length() > 122 ? chartText.substring(122) : chartText
+Mobile.tap(findTestObject('Object Repository/android.widget.ScrollView'), 0)
 
-    chartValues.add(trimmedText)
-}
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Photos'), 0)
 
-// Print all collected values
-for (String value : chartValues) {
-    println(value)
-}
+Mobile.takeScreenshot('/var/folders/rt/z3fhc06x4nd0mj78vck7t7p40000gp/T/screenshot1809430157263194701.png')
+
+Mobile.pressHome()
+
+Mobile.swipe(0, 0, 0, 20)
+
+Mobile.closeApplication()
+

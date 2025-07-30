@@ -18,38 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-WebUI.navigateToUrl('https://canvas-demo-website.vercel.app/')
 
-// Define a list of coordinate pairs you want to test
-List<List<Integer>> coordinates = [
-    [90, 30],
-    [60, 120],
-    [400, 20],
-    [200, 80],
-    [-200, 100]
-]
+WebUI.callTestCase(findTestCase('MainTC-reuse1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// Store chart values here
-List<String> chartValues = []
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'))
 
-TestObject canvas = findTestObject('Object Repository/Page_/canvas_ValueMonthSample Monthly Data Chart010203') //Test object
+WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    'Login failed! Please ensure the username and password are valid.')
 
-for (List<Integer> coord : coordinates) {
-    int x = coord[0]
-    int y = coord[1]
+WebUI.closeBrowser()
 
-    WebUI.mouseOverOffset(canvas, x, y)
-    WebUI.delay(2)  // Give tooltip time to appear
-
-    String chartText = WebUI.getText(canvas)
-
-    // Trim based on fixed offset (adjust if needed)
-    String trimmedText = chartText.length() > 122 ? chartText.substring(122) : chartText
-
-    chartValues.add(trimmedText)
-}
-
-// Print all collected values
-for (String value : chartValues) {
-    println(value)
-}

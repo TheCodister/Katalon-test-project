@@ -17,39 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://canvas-demo-website.vercel.app/')
+Mobile.startApplication('/Users/quang.nnguyen/Downloads/application-8fc26f8e-16c6-4626-9cf4-37367f5ca189 (1).apk', true)
 
-// Define a list of coordinate pairs you want to test
-List<List<Integer>> coordinates = [
-    [90, 30],
-    [60, 120],
-    [400, 20],
-    [200, 80],
-    [-200, 100]
-]
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView -  Todays tasks'), 0)
 
-// Store chart values here
-List<String> chartValues = []
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Write a task'), 'This is a big text', 0)
 
-TestObject canvas = findTestObject('Object Repository/Page_/canvas_ValueMonthSample Monthly Data Chart010203') //Test object
+Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup'), 0)
 
-for (List<Integer> coord : coordinates) {
-    int x = coord[0]
-    int y = coord[1]
+Mobile.closeApplication()
 
-    WebUI.mouseOverOffset(canvas, x, y)
-    WebUI.delay(2)  // Give tooltip time to appear
-
-    String chartText = WebUI.getText(canvas)
-
-    // Trim based on fixed offset (adjust if needed)
-    String trimmedText = chartText.length() > 122 ? chartText.substring(122) : chartText
-
-    chartValues.add(trimmedText)
-}
-
-// Print all collected values
-for (String value : chartValues) {
-    println(value)
-}
