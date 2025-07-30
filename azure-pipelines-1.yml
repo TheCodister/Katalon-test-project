@@ -1,0 +1,23 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+trigger:
+- none
+pool:
+  vmImage: 'ubuntu-latest'
+variables:
+  API_KEY: 'f281a83c-3f93-4993-a2b9-06f0d5714721'
+steps:
+- script: docker pull katalonstudio/katalon:latest
+  displayName: 'Pull katalon studio images'
+- script: docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc -noSplash -runMode=console -projectPath=/tmp/project -retry=0 -testSuitePath="Test Suites/Docker-recreate" -browserType="Chrome (headless)" -executionProfile="default" -apiKey="f281a83c-3f93-4993-a2b9-06f0d5714721"
+  displayName: 'sample-for-docker-reproducing'
+- task: PublishPipelineArtifact@0
+  inputs:
+    artifactName: 'JUnit Report'
+    targetPath: report/
+  condition: succeededOrFailed()
+  # env:
+  #   JAVA_HOME: $(JAVA_HOME_8_X64)
+  #   PATH: $(JAVA_HOME_8_X64)/bin:$(PATH)
