@@ -21,8 +21,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://hopdongcuatoi-int.manulife.com.vn/login')
 
-WebUI.delay(15)
-
 WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
