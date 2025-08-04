@@ -1,0 +1,22 @@
+trigger:
+  branches:
+    include:
+    - none
+variables:
+- name: API_KEY
+  value: 'f281a83c-3f93-4993-a2b9-06f0d5714721'
+stages:
+- stage: __default
+  jobs:
+  - job: Job
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: CmdLine@2
+      displayName: 'Pull katalon studio images'
+      inputs:
+        script: docker pull katalonstudio/katalon:latest
+    - task: CmdLine@2
+      displayName: 'sample-for-docker-reproducing'
+      inputs:
+        script: docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -retry=0 -testSuitePath="Test Suites/WebOpenBrowser" -apiKey="f281a83c-3f93-4993-a2b9-06f0d5714721" -browserType="Chrome" -executionProfile="default" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
