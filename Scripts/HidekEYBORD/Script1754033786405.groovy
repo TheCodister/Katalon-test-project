@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('/Users/quang.nnguyen/Downloads/reactnativesample.app', true)
+
+Mobile.setText(findTestObject('Object Repository/XCUIElementTypeTextField - text-input'), 'Hello world', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeButton - Return'), 0)
+
+Mobile.closeApplication()
+

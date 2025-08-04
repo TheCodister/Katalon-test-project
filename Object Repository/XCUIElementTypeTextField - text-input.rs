@@ -13,7 +13,7 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeTextField</value>
-      <webElementGuid>d8cbc35f-3454-4b6d-925e-24cc3e2cafac</webElementGuid>
+      <webElementGuid>a9585ef9-9134-4532-9ad0-7c276022459f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -21,7 +21,7 @@
       <name>accessible</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>0db8072d-645a-4c1e-9a0d-b4387a6e4f12</webElementGuid>
+      <webElementGuid>ddc93f46-2f68-4210-8c9a-68dbfdb0afc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>237a7759-af49-4632-9997-b2ce98cac90c</webElementGuid>
+      <webElementGuid>2b5a9ef8-5cab-4a5a-af02-18ea2fe237be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>height</name>
       <type>Main</type>
       <value>80.0</value>
-      <webElementGuid>ef1b8cd0-f10a-40b3-9ea2-c2be94801c9e</webElementGuid>
+      <webElementGuid>8fd7842a-a799-4f85-b822-3e49cd4ddafb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>9e731f01-bec7-4415-b0f0-f4674d8b03e7</webElementGuid>
+      <webElementGuid>0b8b239a-b163-42a7-8c2d-8ac9012c7499</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>text-input</value>
-      <webElementGuid>81e2372c-60e1-4ff4-af97-f58c3fae4972</webElementGuid>
+      <webElementGuid>5cb05990-c9c1-477e-b1c5-49a5fef71352</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>placeholderValue</name>
       <type>Main</type>
       <value>Type something...</value>
-      <webElementGuid>8805891e-ce3e-444c-8f7d-7f25afd3c331</webElementGuid>
+      <webElementGuid>2fe16391-021b-40eb-a3e9-e6e8f9efe8e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Type something...</value>
-      <webElementGuid>01c526cc-6800-4160-875a-a2c6c12a1a47</webElementGuid>
+      <webElementGuid>db569a1d-bb64-45b1-b458-623cdd881a2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>720.0</value>
-      <webElementGuid>fa0e3a6c-1bdd-4dd3-89e8-460a3a704162</webElementGuid>
+      <webElementGuid>e4263f1f-ee3e-4522-b7cf-3f29cc86f0b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,15 +85,15 @@
       <name>x</name>
       <type>Main</type>
       <value>42.0</value>
-      <webElementGuid>1f01b003-b360-441a-ba48-e0f8541e3bf8</webElementGuid>
+      <webElementGuid>a5581dc3-e59a-46be-8573-a931ccc9cd0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>80.0</value>
-      <webElementGuid>2734a55e-7401-42a1-9a75-ce7a9cd7e02f</webElementGuid>
+      <value>256.0</value>
+      <webElementGuid>b61269ec-3326-453b-9a8b-e2b2133bf9f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,57 +101,53 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]</value>
-      <webElementGuid>cba7be37-6bc1-4621-8acd-24255e4257c3</webElementGuid>
+      <webElementGuid>db9aaa1a-7a22-4abc-9c6a-3e9f4d942446</webElementGuid>
    </webElementProperties>
    <locator>//*[@type = 'XCUIElementTypeTextField' and @name = 'text-input' and @value = 'Type something...']</locator>
    <locatorCollection>
       <entry>
-         <key>ID</key>
-         <value>text-input</value>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>ATTRIBUTES</key>
          <value>//*[@type = 'XCUIElementTypeTextField' and @name = 'text-input' and @value = 'Type something...']</value>
-      </entry>
-      <entry>
-         <key>IOS_PREDICATE_STRING</key>
-         <value>type == 'XCUIElementTypeTextField' AND enabled == 1 AND name == 'text-input' AND name == 'Type something...'</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-         <value>**/XCUIElementTypeTextField[`enabled == 1 AND name == 'text-input' AND value == 'Type something...'`]</value>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>XCUIElementTypeTextField</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value></value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
          <value>text-input</value>
       </entry>
       <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**/XCUIElementTypeTextField[`enabled == 1 AND name == 'text-input' AND value == 'Type something...'`]</value>
+      </entry>
+      <entry>
          <key>ANDROID_VIEWTAG</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>type == 'XCUIElementTypeTextField' AND enabled == 1 AND name == 'text-input' AND name == 'Type something...'</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>XCUIElementTypeTextField</value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
       </entry>
       <entry>
          <key>NAME</key>
          <value>text-input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>text-input</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

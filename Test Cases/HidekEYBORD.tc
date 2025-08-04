@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test no new browser</name>
+   <name>HidekEYBORD</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>f8cb54a8-3742-42d6-9712-46855ab78dc3</testCaseGuid>
+   <testCaseGuid>1eba56c5-1f9f-4270-8950-7a9e46b75653</testCaseGuid>
 </TestCaseEntity>

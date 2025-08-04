@@ -21,5 +21,7 @@ WebUI.navigateToUrl('http://demoaut.katalon.com/')
 
 WebUI.switchToWindowTitle('CURA Healthcare Service')
 
+WebUI.takeFullPageScreenshotAsCheckpoint('demo page')
+
 WebUI.callTestCase(findTestCase('MainTC-reuse2'), [:], FailureHandling.STOP_ON_FAILURE)
 

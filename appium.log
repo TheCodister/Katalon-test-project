@@ -1,104 +1,347 @@
 [38;5;112m[Appium][0m Welcome to Appium v2.19.0 (REV 4d14be89e99a45181c18e96a5f19a5b43343cc0f)
 [38;5;112m[Appium][0m Non-default server args:
-[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m50873[39m }
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m59795[39m }
 [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
 [38;5;112m[Appium][0m Attempting to load driver xcuitest...
-[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:50873/wd/hub
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:59795/wd/hub
 [38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
-	http://127.0.0.1:50873/wd/hub (only accessible from the same host)
-	http://10.10.32.92:50873/wd/hub
+	http://127.0.0.1:59795/wd/hub (only accessible from the same host)
+	http://192.168.1.6:59795/wd/hub
 [38;5;112m[Appium][0m Available drivers:
 [38;5;112m[Appium][0m   - uiautomator2@4.2.5 (automationName 'UiAutomator2')
 [38;5;112m[Appium][0m   - xcuitest@9.10.1 (automationName 'XCUITest')
 [38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
-[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 200[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 200[39m [90m[39m
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
 [38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 200[39m [90m[39m
-[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"/Users/quang.nnguyen/Documents/Code/movie-app/build/app/outputs/flutter-apk/app-release.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 16)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPort":50892,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/quang.nnguyen/Documents/Code/movie-app/build/app/outputs/flutter-apk/app-release.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 16)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPort":50892,"appium:udid":"emulator-5554"}}[39m
-[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
-[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
-[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
-[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
-[38;5;112m[Appium][0m Will require it at /Users/quang.nnguyen/.appium/node_modules/appium-uiautomator2-driver
-[38;5;117m[AppiumDriver@dc77][0m Appium v2.19.0 creating new AndroidUiautomator2Driver (v4.2.5) session
-[38;5;117m[AppiumDriver@dc77][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
-[38;5;117m[AppiumDriver@dc77][0m Appium's BaseDriver version is 9.18.0
-[38;5;117m[AppiumDriver@dc77][0m AndroidUiautomator2Driver's BaseDriver version is 9.18.0
-[38;5;-190m[AndroidUiautomator2Driver@08cd][0m The following provided capabilities were not recognized by this driver:
-[38;5;-190m[AndroidUiautomator2Driver@08cd][0m   deviceId
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Session created with session id: 14649775-8af0-43f9-9dc4-e9657db31359
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under '/Users/quang.nnguyen/.katalon/tools/android_sdk' (newest first):
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m     /Users/quang.nnguyen/.katalon/tools/android_sdk/build-tools/29.0.3
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/quang.nnguyen/.katalon/tools/android_sdk/platform-tools/adb'
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Retrieving device list
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Using device: emulator-5554
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/quang.nnguyen/.katalon/tools/android_sdk/platform-tools/adb'
-[38;5;119m[14649775][0m[38;5;123m[BaseDriver][0m Using local app '/Users/quang.nnguyen/Documents/Code/movie-app/build/app/outputs/flutter-apk/app-release.apk'
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m Getting device platform version
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Relaxing hidden api policy
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/quang.nnguyen/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m Package name: 'com.example.sawaco_flutter'
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m Main activity name: 'com.example.sawaco_flutter.MainActivity'
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from '/Users/quang.nnguyen/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Server packages are not going to be (re)installed
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m '/Users/quang.nnguyen/Documents/Code/movie-app/build/app/outputs/flutter-apk/app-release.apk' is signed with a non-default certificate
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m The application at '/Users/quang.nnguyen/Documents/Code/movie-app/build/app/outputs/flutter-apk/app-release.apk' will not be cached, because the device under test has confirmed the support of streamed installs
-[38;5;119m[14649775][0m[38;5;229m[ADB][0m The installation of 'app-release.apk' took 1382ms
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Starting UIAutomator2 server 7.6.2
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Using UIAutomator2 server from '/Users/quang.nnguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.6.2.apk' and test from '/Users/quang.nnguyen/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Waiting up to 30000ms for UiAutomator2 to be online...
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m socket hang up
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m socket hang up
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m socket hang up
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Determined the downstream protocol as 'W3C'
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Screen already unlocked, doing nothing
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Starting 'com.example.sawaco_flutter/com.example.sawaco_flutter.MainActivity' and waiting for 'com.example.sawaco_flutter/com.example.sawaco_flutter.MainActivity'
-[38;5;119m[14649775][0m[38;5;117m[AppiumDriver@dc77][0m New AndroidUiautomator2Driver session created successfully, session 14649775-8af0-43f9-9dc4-e9657db31359 added to master session list
-[38;5;119m[14649775][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m10104 ms - 1392[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"/Users/quang.nnguyen/Downloads/reactnativesample.app","appium:automationName":"XCUITest","appium:deviceName":"iPhone 16 Pro","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"18.5","appium:udid":"69E8ECD6-A429-47C9-B7F7-63053FBEAE46","appium:waitForAppScript":"true;","appium:wdaLocalPort":59811,"platformName":"IOS"}]},"desiredCapabilities":{"appium:app":"/Users/quang.nnguyen/Downloads/reactnativesample.app","appium:automationName":"XCUITest","appium:deviceName":"iPhone 16 Pro","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"18.5","appium:udid":"69E8ECD6-A429-47C9-B7F7-63053FBEAE46","appium:waitForAppScript":"true;","appium:wdaLocalPort":59811}}[39m
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'XCUITest' and platformName 'IOS'
+[38;5;112m[Appium][0m The 'xcuitest' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/quang.nnguyen/.appium/node_modules/appium-xcuitest-driver
+[38;5;39m[AppiumDriver@0e5e][0m Appium v2.19.0 creating new XCUITestDriver (v9.10.1) session
+[38;5;39m[AppiumDriver@0e5e][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;39m[AppiumDriver@0e5e][0m Appium's BaseDriver version is 9.18.0
+[38;5;39m[AppiumDriver@0e5e][0m XCUITestDriver's BaseDriver version is 9.18.0
+[38;5;45m[XCUITestDriver@e3a1][0m The following provided capabilities were not recognized by this driver:
+[38;5;45m[XCUITestDriver@e3a1][0m   waitForAppScript
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Session created with session id: c3d23951-771f-4e6c-ba2f-15b738a30f7d
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Constructing iOS simulator for Xcode version 16.4 with udid '69E8ECD6-A429-47C9-B7F7-63053FBEAE46'
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Determining device to run tests on: udid: '69E8ECD6-A429-47C9-B7F7-63053FBEAE46', real device: false
+[38;5;198m[c3d23951][0m[38;5;123m[BaseDriver][0m Using local app '/Users/quang.nnguyen/Downloads/reactnativesample.app'
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Using WDA path: '/Users/quang.nnguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Using WDA agent: '/Users/quang.nnguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Setting up simulator
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Both Simulator with UDID '69E8ECD6-A429-47C9-B7F7-63053FBEAE46' and the UI client are currently running
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m App 'com.thecodister.reactnativesample' is already installed
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m noReset is requested. The app will not be be (re)installed
+[38;5;198m[c3d23951][0m[38;5;23m[DevCon Factory][0m Requesting connection for device 69E8ECD6-A429-47C9-B7F7-63053FBEAE46 on local port 59811
+[38;5;198m[c3d23951][0m[38;5;23m[DevCon Factory][0m Successfully requested the connection for 69E8ECD6-A429-47C9-B7F7-63053FBEAE46:59811
+[38;5;198m[c3d23951][0m[38;5;151m[WD Proxy][0m connect ECONNREFUSED 127.0.0.1:59811
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Launching WebDriverAgent on the device
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m There is no need to perform the project cleanup. A fresh install has been detected
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m connect ECONNREFUSED 127.0.0.1:59811
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m connect ECONNREFUSED 127.0.0.1:59811
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m connect ECONNREFUSED 127.0.0.1:59811
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m connect ECONNREFUSED 127.0.0.1:59811
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m connect ECONNREFUSED 127.0.0.1:59811
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m connect ECONNREFUSED 127.0.0.1:59811
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Determined the downstream protocol as 'W3C'
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m WDA session startup took 54ms
+[38;5;198m[c3d23951][0m[38;5;23m[DevCon Factory][0m Requesting connection for device 69E8ECD6-A429-47C9-B7F7-63053FBEAE46 on local port 9100, device port 9100
+[38;5;198m[c3d23951][0m[38;5;23m[DevCon Factory][0m Successfully requested the connection for 69E8ECD6-A429-47C9-B7F7-63053FBEAE46:9100
+[38;5;198m[c3d23951][0m[38;5;39m[AppiumDriver@0e5e][0m New XCUITestDriver session created successfully, session c3d23951-771f-4e6c-ba2f-15b738a30f7d added to master session list
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m9338 ms - 591[39m [90m[39m
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
 [38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 200[39m [90m[39m
-[38;5;119m[14649775][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/14649775-8af0-43f9-9dc4-e9657db31359/timeouts[39m [90m{"implicit":60000}[39m
-[38;5;119m[14649775][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/14649775-8af0-43f9-9dc4-e9657db31359/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
-[38;5;119m[14649775][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/14649775-8af0-43f9-9dc4-e9657db31359/source[39m [90m{}[39m
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Replacing sessionId 998e36bd-d864-431e-afd2-05ebd3116750 with 14649775-8af0-43f9-9dc4-e9657db31359
-[38;5;119m[14649775][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/14649775-8af0-43f9-9dc4-e9657db31359/source [39m[32m200[39m [90m698 ms - 11310[39m [90m[39m
-[38;5;119m[14649775][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/14649775-8af0-43f9-9dc4-e9657db31359/screenshot[39m [90m{}[39m
-[38;5;119m[14649775][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/14649775-8af0-43f9-9dc4-e9657db31359/screenshot [39m[32m200[39m [90m354 ms - 68388[39m [90m[39m
-[38;5;119m[14649775][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/14649775-8af0-43f9-9dc4-e9657db31359[39m [90m{}[39m
-[38;5;119m[14649775][0m[38;5;117m[AppiumDriver@dc77][0m Removing session 14649775-8af0-43f9-9dc4-e9657db31359 from our master session list
-[38;5;119m[14649775][0m[38;5;-190m[AndroidUiautomator2Driver@08cd][0m Restoring hidden api policy to the device default configuration
-[38;5;119m[14649775][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/14649775-8af0-43f9-9dc4-e9657db31359 [39m[32m200[39m [90m975 ms - 14[39m [90m[39m
-[38;5;112m[Appium][0m Received SIGTERM - shutting down
-[38;5;86m[HTTP][0m Closing Appium HTTP server
-[38;5;86m[HTTP][0m Appium HTTP server has been successfully closed after 0ms
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           [38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 2025-07-30 11:23:01.710051+0700 WebDriverAgentRunner-Runner[88592:1913305] [Default] Running tests...
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Restarting after unexpected exit, crash, or test timeout; summary will include totals from previous launches.
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m     t =      nans Interface orientation changed to Portrait
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Test Suite 'Selected tests' started at 2025-07-30 11:23:02.172.
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Test Suite 'WebDriverAgentRunner.xctest' started at 2025-07-30 11:23:02.172.
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Test Suite 'UITestingUITests' started at 2025-07-30 11:23:02.172.
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m     t =      nans Suite Set Up
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Test Suite 'UITestingUITests' passed at 2025-07-30 11:23:02.241.
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.068) seconds
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Test Suite 'WebDriverAgentRunner.xctest' passed at 2025-07-30 11:23:02.241.
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.069) seconds
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Test Suite 'Selected tests' passed at 2025-07-30 11:23:02.241.
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.070) seconds
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 2025-07-30 11:23:22.023 xcodebuild[12665:1163671] [MT] IDETestOperationsObserverDebug: 77676.601 elapsed -- Testing started completed.
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 2025-07-30 11:23:22.024 xcodebuild[12665:1163671] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 2025-07-30 11:23:22.024 xcodebuild[12665:1163671] [MT] IDETestOperationsObserverDebug: 77676.602 sec, +77676.602 sec -- end
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Test session results, code coverage, and logs:
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 	/Users/quang.nnguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/Logs/Test/Test-WebDriverAgentRunner-2025.07.29_13-48-43-+0700.xcresult
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Failing tests:
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 	-[UITestingUITests testRunner]
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m ** TEST EXECUTE FAILED **
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m 
-[38;5;182m[d5bbb865][0m[38;5;173m[Xcode][0m Testing started
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/appium/settings[39m [90m{"settings":{"respectSystemAlerts":true}}[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/appium/settings [39m[32m200[39m [90m12 ms - 14[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/execute/sync[39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:57:47.352633+0700 WebDriverAgentRunner-Runner[5190:3274959] Cannot determine accessibility of 'XCUIElementTypeOther' natively: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}. Defaulting to: 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:57:47.353548+0700 WebDriverAgentRunner-Runner[5190:3274959] Cannot determine accessibility of 'XCUIElementTypeOther' natively: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}. Defaulting to: 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:57:47.354364+0700 WebDriverAgentRunner-Runner[5190:3274959] Cannot determine accessibility of 'XCUIElementTypeOther' natively: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}. Defaulting to: 0
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/execute/sync [39m[32m200[39m [90m2207 ms - 25060[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/screenshot[39m [90m{}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:57:47.398110+0700 WebDriverAgentRunner-Runner[5190:3274959] The device under test does not support HEIC image encoding. Falling back to PNG
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/screenshot [39m[32m200[39m [90m108 ms - 339848[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/window/rect[39m [90m{}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.57s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.57s     Requesting snapshot of accessibility hierarchy for app with pid 1100
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.60s     Find: Descendants matching type Any
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.60s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.60s Find the Application 'com.thecodister.reactnativesample'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.60s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/window/rect [39m[32m200[39m [90m87 ms - 48[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/elements[39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @name = 'text-input' and @value = 'Hello World']"}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.65s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.65s     Requesting snapshot of accessibility hierarchy for app with pid 1100
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.67s     Find: Descendants matching type Any
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.67s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:03.351648+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 2s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    18.68s Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.69s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.69s Find the Application 'com.thecodister.reactnativesample'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.69s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:05.438052+0700 WebDriverAgentRunner-Runner[5190:3274959] The following attributes were requested to be included into the XML: {(
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBValueAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBNameAttribute
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m )}
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.77s Get all elements bound by index for: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.77s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.78s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.78s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.78s Find the TextField (Element at index 0)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.78s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.80s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.80s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.80s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/elements [39m[32m200[39m [90m2154 ms - 139[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/30000000-0000-0000-C805-000000000000/rect[39m [90m{}[39m
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.81s Find the TextField (Element at index 0)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.81s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.82s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.82s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.82s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Replacing sessionId A65548F8-96A9-40D9-921A-C5FF8B2041F9 with c3d23951-771f-4e6c-ba2f-15b738a30f7d
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/30000000-0000-0000-C805-000000000000/rect [39m[32m200[39m [90m21 ms - 101[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/30000000-0000-0000-C805-000000000000/clear[39m [90m{"id":"30000000-0000-0000-C805-000000000000"}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.83s Find the "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.83s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.84s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.84s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.84s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:05.520734+0700 WebDriverAgentRunner-Runner[5190:3274959] Neither the "XCUIElementTypeTextField (text-input)" element itself nor its accessible descendants have the keyboard input focus
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:05.520779+0700 WebDriverAgentRunner-Runner[5190:3274959] Trying to tap the "XCUIElementTypeTextField (text-input)" element to have it focused
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.85s Tap "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:05.521948+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 10s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    20.85s     Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    30.86s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    30.86s     Find the "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    30.86s         Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    30.89s         Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    30.89s         Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    30.89s         Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    30.89s Application is configured to skip UI interruption handling
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    30.90s     Synthesize event
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:15.887008+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 10s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    31.21s     Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.23s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.24s Find the "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.25s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.28s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.28s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.28s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.51s Find the "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.51s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.55s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.55s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.55s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/30000000-0000-0000-C805-000000000000/clear [39m[32m200[39m [90m20731 ms - 14[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/30000000-0000-0000-C805-000000000000/click[39m [90m{"id":"30000000-0000-0000-C805-000000000000"}[39m
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.56s Find the "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.56s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.58s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.59s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.59s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.59s Tap "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:26.264981+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 10s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    41.59s     Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    51.61s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    51.61s     Find the "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    51.61s         Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    51.65s         Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    51.66s         Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    51.66s         Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    51.66s Application is configured to skip UI interruption handling
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    51.66s     Synthesize event
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:36.645058+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 10s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    51.97s     Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    61.99s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Replacing sessionId A65548F8-96A9-40D9-921A-C5FF8B2041F9 with c3d23951-771f-4e6c-ba2f-15b738a30f7d
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/30000000-0000-0000-C805-000000000000/click [39m[32m200[39m [90m20442 ms - 65[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/30000000-0000-0000-C805-000000000000/value[39m [90m{"text":"Hello World","value":["H","e","l","l","o"," ","W","o","r","l","d"],"id":"30000000-0000-0000-C805-000000000000"}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.03s Find the "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.03s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.07s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.07s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.07s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.08s Find the "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.08s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.10s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.11s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.11s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.11s Find the "text-input" TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.11s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.13s     Find: Descendants matching type TextField
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.13s     Find: Elements matching predicate 'fb_uid IN {"30000000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    62.13s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/30000000-0000-0000-C805-000000000000/value [39m[32m200[39m [90m537 ms - 14[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/execute/sync[39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    63.33s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    63.33s     Requesting snapshot of accessibility hierarchy for app with pid 1100
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    63.36s     Find: Descendants matching type Any
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    63.36s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:48.035298+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 2s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    63.36s Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    65.37s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    65.37s Find the Application 'com.thecodister.reactnativesample'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =    65.38s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:50.142959+0700 WebDriverAgentRunner-Runner[5190:3274959] The following attributes were requested to be included into the XML: {(
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBValueAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBTraitsAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBYAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBEnabledAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBPlaceholderValueAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBIndexAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBXAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBHeightAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBAccessibleAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBNameAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBWidthAttribute
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m )}
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:50.168513+0700 WebDriverAgentRunner-Runner[5190:3274959] Cannot determine accessibility of 'XCUIElementTypeOther' natively: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}. Defaulting to: 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:50.169280+0700 WebDriverAgentRunner-Runner[5190:3274959] Cannot determine accessibility of 'XCUIElementTypeOther' natively: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}. Defaulting to: 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:50.170153+0700 WebDriverAgentRunner-Runner[5190:3274959] Cannot determine accessibility of 'XCUIElementTypeOther' natively: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}. Defaulting to: 0
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/execute/sync [39m[32m200[39m [90m2231 ms - 36177[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/screenshot[39m [90m{}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:58:50.268932+0700 WebDriverAgentRunner-Runner[5190:3274959] The device under test does not support HEIC image encoding. Falling back to PNG
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/screenshot [39m[32m200[39m [90m79 ms - 249468[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/window/rect[39m [90m{}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.41s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.41s     Requesting snapshot of accessibility hierarchy for app with pid 1100
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.45s     Find: Descendants matching type Any
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.46s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.46s Find the Application 'com.thecodister.reactnativesample'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.46s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/window/rect [39m[32m200[39m [90m129 ms - 48[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/elements[39m [90m{"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'return' and @name = 'Return']"}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.53s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.53s     Requesting snapshot of accessibility hierarchy for app with pid 1100
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.56s     Find: Descendants matching type Any
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.56s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:27.235488+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 2s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   102.56s Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.57s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.57s Find the Application 'com.thecodister.reactnativesample'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.58s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:29.340299+0700 WebDriverAgentRunner-Runner[5190:3274959] The following attributes were requested to be included into the XML: {(
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBNameAttribute
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m )}
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.67s Get all elements bound by index for: Elements matching predicate 'fb_uid IN {"E1060000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.67s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.69s     Find: Descendants matching type Button
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.69s     Find: Elements matching predicate 'fb_uid IN {"E1060000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.69s Find the Button (Element at index 0)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.69s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.71s     Find: Descendants matching type Button
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.71s     Find: Elements matching predicate 'fb_uid IN {"E1060000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.71s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/elements [39m[32m200[39m [90m2183 ms - 139[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/E1060000-0000-0000-C805-000000000000/rect[39m [90m{}[39m
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.72s Find the Button (Element at index 0)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.72s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.75s     Find: Descendants matching type Button
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.75s     Find: Elements matching predicate 'fb_uid IN {"E1060000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.75s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Replacing sessionId A65548F8-96A9-40D9-921A-C5FF8B2041F9 with c3d23951-771f-4e6c-ba2f-15b738a30f7d
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/E1060000-0000-0000-C805-000000000000/rect [39m[32m200[39m [90m41 ms - 102[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/E1060000-0000-0000-C805-000000000000/click[39m [90m{"id":"E1060000-0000-0000-C805-000000000000"}[39m
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.76s Find the "Return" Button
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.76s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.78s     Find: Descendants matching type Button
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.78s     Find: Elements matching predicate 'fb_uid IN {"E1060000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.78s     Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.78s Tap "Return" Button
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:29.458168+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 10s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   104.78s     Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   114.80s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   114.80s     Find the "Return" Button
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   114.81s         Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   114.85s         Find: Descendants matching type Button
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   114.85s         Find: Elements matching predicate 'fb_uid IN {"E1060000-0000-0000-C805-000000000000"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   114.85s         Find: Element at index 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   114.85s Application is configured to skip UI interruption handling
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   114.85s     Synthesize event
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:39.941983+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 10s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   115.27s     Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   125.29s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Replacing sessionId A65548F8-96A9-40D9-921A-C5FF8B2041F9 with c3d23951-771f-4e6c-ba2f-15b738a30f7d
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/element/E1060000-0000-0000-C805-000000000000/click [39m[32m200[39m [90m20536 ms - 65[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/execute/sync[39m [90m{"script":"mobile: source","args":[{"format":"xml","excludedAttributes":"visible"}]}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   126.07s Get number of matches for: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   126.07s     Requesting snapshot of accessibility hierarchy for app with pid 1100
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   126.10s     Find: Descendants matching type Any
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   126.10s     Find: Elements matching predicate 'elementType == 7 OR identifier IN {"SBTransientOverlayWindow", "NotificationShortLookView"}'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:50.776230+0700 WebDriverAgentRunner-Runner[5190:3274959] Waiting up to 2s until com.thecodister.reactnativesample is in idle state (including animations)
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   126.10s Wait for com.thecodister.reactnativesample to idle
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   128.11s App animations complete notification not received, will attempt to continue.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   128.11s Find the Application 'com.thecodister.reactnativesample'
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =   128.12s     Requesting snapshot of accessibility hierarchy for app with pid 1480
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:52.861395+0700 WebDriverAgentRunner-Runner[5190:3274959] The following attributes were requested to be included into the XML: {(
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBValueAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBTraitsAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBYAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBEnabledAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBTypeAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBPlaceholderValueAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBIndexAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBXAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBLabelAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBHeightAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBAccessibleAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBNameAttribute,
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     FBWidthAttribute
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m )}
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:52.889665+0700 WebDriverAgentRunner-Runner[5190:3274959] Cannot determine accessibility of 'XCUIElementTypeOther' natively: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}. Defaulting to: 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:52.890509+0700 WebDriverAgentRunner-Runner[5190:3274959] Cannot determine accessibility of 'XCUIElementTypeOther' natively: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}. Defaulting to: 0
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:52.891338+0700 WebDriverAgentRunner-Runner[5190:3274959] Cannot determine accessibility of 'XCUIElementTypeOther' natively: Error Domain=com.apple.dt.xctest.automation-support.error Code=11 "Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016" UserInfo={accessibility-error=-25202, NSLocalizedDescription=Accessibility error kAXErrorInvalidUIElement from AXUIElementCopyMultipleAttributeValues for 2016}. Defaulting to: 0
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/execute/sync [39m[32m200[39m [90m2172 ms - 25060[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/screenshot[39m [90m{}[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 14:59:52.943340+0700 WebDriverAgentRunner-Runner[5190:3274959] The device under test does not support HEIC image encoding. Falling back to PNG
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d/screenshot [39m[32m200[39m [90m90 ms - 340508[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;45m[XCUITestDriver@e3a1][0m Shutting down because we waited 1800 seconds for a command
+[38;5;198m[c3d23951][0m[38;5;39m[AppiumDriver@0e5e][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;198m[c3d23951][0m[38;5;39m[AppiumDriver@0e5e][0m Removing session 'c3d23951-771f-4e6c-ba2f-15b738a30f7d' from our master session list
+[38;5;198m[c3d23951][0m[38;5;23m[DevCon Factory][0m Releasing connections for 69E8ECD6-A429-47C9-B7F7-63053FBEAE46 device on any port number
+[38;5;198m[c3d23951][0m[38;5;23m[DevCon Factory][0m Found cached connections to release: ["69E8ECD6-A429-47C9-B7F7-63053FBEAE46:59811","69E8ECD6-A429-47C9-B7F7-63053FBEAE46:9100"]
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-01 15:50:54.787151+0700 WebDriverAgentRunner-Runner[5190:3302286] [ProfileConnection] Public XPC connection invalidated
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d[39m [90m{}[39m
+[38;5;198m[c3d23951][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/c3d23951-771f-4e6c-ba2f-15b738a30f7d [39m[33m404[39m [90m105 ms - 3282[39m [90m[39m
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-04 09:48:57.717067+0700 WebDriverAgentRunner-Runner[54618:3944765] [Default] Running tests...
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Restarting after unexpected exit, crash, or test timeout; summary will include totals from previous launches.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Test Suite 'Selected tests' started at 2025-08-04 09:48:58.285.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Test Suite 'WebDriverAgentRunner.xctest' started at 2025-08-04 09:48:58.285.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Test Suite 'UITestingUITests' started at 2025-08-04 09:48:58.285.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m     t =      nans Suite Set Up
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Test Suite 'UITestingUITests' passed at 2025-08-04 09:48:58.364.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.079) seconds
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Test Suite 'WebDriverAgentRunner.xctest' passed at 2025-08-04 09:48:58.364.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.079) seconds
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Test Suite 'Selected tests' passed at 2025-08-04 09:48:58.365.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.080) seconds
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-04 09:49:21.117 xcodebuild[5170:3274700] [MT] IDETestOperationsObserverDebug: 240700.942 elapsed -- Testing started completed.
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-04 09:49:21.118 xcodebuild[5170:3274700] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 2025-08-04 09:49:21.118 xcodebuild[5170:3274700] [MT] IDETestOperationsObserverDebug: 240700.943 sec, +240700.943 sec -- end
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Test session results, code coverage, and logs:
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 	/Users/quang.nnguyen/.appium/node_modules/appium-xcuitest-driver/node_modules/Logs/Test/Test-WebDriverAgentRunner-2025.08.01_14-57-39-+0700.xcresult
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Failing tests:
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 	-[UITestingUITests testRunner]
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m ** TEST EXECUTE FAILED **
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m 
+[38;5;198m[c3d23951][0m[38;5;173m[Xcode][0m Testing started
